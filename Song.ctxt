@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Song
+comment1.params=
+comment1.target=Song()
+comment1.text=\r\n\ Initialized\ the\ notes\ queue\ that\ will\ contain\ Note\ objects,\ chords\ linked\ list\ that\ will\ contain\ specified\ notes\ that\ go\ with\ \r\n\ specific\ notes\ in\ the\ queue\ to\ play\ chords.\ Imports\ Random\ class\ to\ randomly\ choose\ x\ coordinates\ from\ the\ \r\n\ random_coord\ array\ so\ each\ death\ star\ image\ icon\ falls\ in\ the\ regions\ of\ one\ of\ the\ 6\ keys.\ It\ also\ reads\ from\ the\ file\ that\ contains\r\n\ all\ the\ audio\ clip\ paths,\ so\ it\ can\ make\ a\ new\ Note\ Object\ and\ add\ it\ to\ the\ queue.\r\n\ \r\n\ \r\n
+comment2.params=
+comment2.target=void\ readFromFile()
+comment2.text=\r\n\ A\ class\ that\ reads\ from\ the\ Song\ File\ that\ contains\ all\ the\ audio\ clip\ files\ and\ makes\ them\ into\ Note\ Objects\ that\ are\ added\ \r\n\ to\ the\ queue.\ Rachel\ assisted\ with\ Linked\ List\ implementation,\ and\ some\ aspects\ of\ Random\ implementation.\ \r\n
+comment3.params=
+comment3.target=javafoundations.LinkedQueue\ getSongQueue()
+comment3.text=\r\n\ Allows\ us\ to\ get\ the\ queue\ from\ this\ class\ to\ use\ in\ the\ Game\ Panel\ class\r\n\ @return\ notes\ the\ queue\ that\ contains\ all\ the\ note\ objects\ with\ audio\ clips\r\n
+comment4.params=
+comment4.target=java.util.LinkedList\ getChordsList()
+comment4.text=\r\n\ Allows\ us\ to\ have\ access\ to\ the\ Linked\ list\ that\ is\ used\ int\ the\ Game\ Panel\ class\r\n\ @return\ chords\ a\ linked\ list\ that\ contains\ junk\ audio\ files\ that\ will\ not\ be\ played\ and\ the\ specific\ audio\ clips\ that\ will\ be\ played\r\n\ at\ the\ right\ time.\r\n
+numComments=5

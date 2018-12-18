@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=GamePanel
+comment1.params=
+comment1.target=GamePanel()
+comment1.text=\n\ Constructor\ for\ Game\ Panel.\ Initializes\ all\ image\ files,\ gets\ all\ the\ notes\ from\ the\ Song\ class,\ \n\ \ and\ initializes\ timer\ for\ animation.\ \n
+comment2.params=page
+comment2.target=void\ paintComponent(java.awt.Graphics)
+comment2.text=\n\ Paint\ components\ allow\ the\ game\ panel\ to\ paint\ the\ image\ icons\ initialized\ in\ the\ previous\ method\ and\ paint\ it\ exactly\ at\ the\n\ right\ coordinates.It\ also\ draws\ line\ to\ help\ the\ user\ better\ percieve\ which\ key\ should\ be\ pressed.\n\ @param\ Graphics\ page\ that\ will\ be\ constantly\ repainted\ throughout\ game\ play\ \n
+comment3.params=
+comment3.target=boolean\ isValidChord()
+comment3.text=\n\ Helper\ function\ that\ checks\ whether\ the\ chord\ is\ valid\ (meaning\ it\ does\ not\ equal\ the\ junk\ chored\ that\ is\ used\ as\ a\ place\ holder\n\ @return\ boolean\ expression\ that\ returns\ true/false\ whether\ the\ audio\ clip\ is\ a\ junk\ audio.\ \n
+numComments=4

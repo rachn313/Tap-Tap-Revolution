@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Note
+comment0.text=\r\n\ Creates\ a\ note\ object\ that\ contains\ the\ audioclip\ file,\ x\ and\ y\ coordinates,\ and\ the\ beat\ (speed)\r\n\r\n\ @author\ (Rachel\ Navarrette)\r\n\ @version\ (12.18.18)\r\n
+comment1.params=fileName\ X\ Y\ beat
+comment1.target=Note(java.lang.String,\ int,\ int,\ int)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Note\ that\ is\ used\ in\ the\ game\ panel\r\n\ @param\ String\ filename\ the\ name\ of\ the\ audioclip\ file\r\n\ @param\ int\ x,\ int\ y\ that\ are\ the\ x\ and\ y\ coordinates\ of\ the\ note\r\n\ @param\ int\ beat,\ that\ contains\ the\ speed\ that\ the\ image\ icon\ is\ moving\r\n
+comment2.params=
+comment2.target=java.applet.AudioClip\ getNote()
+comment2.text=\r\n\ Getter\ method\ that\ allows\ access\ to\ the\ note\ object\r\n
+comment3.params=
+comment3.target=java.lang.String\ getFileName()
+comment3.text=\r\n\ Returns\ a\ string\ of\ the\ audio\ file\ name\ (used\ for\ linked\ list\ implementation)\r\n\ @return\ fileName\ which\ is\ the\ string\ of\ the\ name\ \r\n
+comment4.params=
+comment4.target=int\ getX()
+comment4.text=\r\n\ Getter\ method\ that\ returns\ the\ x\ coordinate\ of\ the\ note\ object\r\n\ @return\ int\ x\r\n
+comment5.params=
+comment5.target=int\ getY()
+comment5.text=\r\n\ Getter\ method\ that\ returns\ the\ y\ coordinate\ of\ the\ note\ object\r\n\ @return\ int\ y\r\n
+comment6.params=
+comment6.target=int\ getBeat()
+comment6.text=\r\n\ Getter\ method\ that\ returns\ the\ beat\ (speed)\ of\ the\ note\ object\r\n\ @return\ int\ speed\r\n
+numComments=7

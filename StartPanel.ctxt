@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=StartPanel
+comment1.params=
+comment1.target=StartPanel()
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ StartPanel.\n
+comment2.params=
+comment2.target=javax.swing.JPanel\ makeCenterPanel()
+comment2.text=\n\ Makes\ the\ center\ panel\ that\ contains\ the\ logo\ image\ icon\n\ @return\ StartPicture\ center\ that\ contains\ the\ image\ logo\n
+comment3.params=
+comment3.target=javax.swing.JPanel\ makeDownPanel()
+comment3.text=\n\ Makes\ the\ bottom\ panel\ that\ contains\ the\ start\ and\ instruction\ buttons.\n\ @return\ JPanel\ on\ the\ bottom\ of\ the\ start\ page\n
+numComments=4

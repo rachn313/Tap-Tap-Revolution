@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=ScoresTab
+comment1.params=
+comment1.target=ScoresTab()
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ InstructionsTab\n
+comment2.params=page
+comment2.target=void\ paintComponent(java.awt.Graphics)
+comment2.text=\n\ Displays\ colorful\ background\ for\ scores\ page\n\ @param\ Graphics\ page\n
+numComments=3

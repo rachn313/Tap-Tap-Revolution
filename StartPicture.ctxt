@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=StartPicture
+comment1.params=
+comment1.target=StartPicture()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ StartPanel\r\n
+comment2.params=page
+comment2.target=void\ paintComponent(java.awt.Graphics)
+comment2.text=\r\n\ paints\ the\ image\ when\ called\ \r\n\ @param\ Graphics\ page\ that\ paints\ the\ image\ on\ the\ page\r\n
+numComments=3

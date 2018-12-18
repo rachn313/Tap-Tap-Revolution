@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=Scores
+comment1.params=
+comment1.target=Scores()
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Scores,\ intializing\ the\ scores\ array\n
+comment2.params=
+comment2.target=void\ expandCapacity()
+comment2.text=\n\ Method\ that\ expands\ the\ scores\ array\ when\ it\ has\ reached\ full\ capacity\n
+comment3.params=fileName\ nums
+comment3.target=void\ writeFile(java.lang.String,\ int[])
+comment3.text=\n\ Writes\ the\ content\ contained\ in\ the\ scores\ array\ into\ a\ file.\ Catches\ potential\ files\ errors.\n\ SLIGHTLY\ BUGGY\:\ writes\ the\ score\ 3\ times\ to\ file\ instead\ of\ only\ once.\ Same\ problem\ in\ \n\ GamePanel\ where\ new\ scores\ are\ added\ after\ the\ game.\ \ \n\n\ @param\ String\ fileName\ that\ contains\ the\ name\ of\ the\ file\ that\ it\ will\ be\ written\ to\ \n\ @param\ int[]\ nums\ an\ array\ of\ scores\ that\ will\ be\ written\ into\ the\ file\n\ \n
+comment4.params=fName
+comment4.target=void\ readFile(java.lang.String)
+comment4.text=\n\ Reads\ the\ file\ that\ was\ written\ and\ addes\ them\ to\ the\ scores\ array.\ Catches\ potential\ files\ errors.\ \n\ @param\ String\ filename\ which\ is\ the\ name\ of\ the\ file\ that\ contains\ score\ history.\n
+comment5.params=
+comment5.target=int[]\ getScoreArray()
+comment5.text=\n\ Helper\ method\ created\ (Rachel\ debugging)\ to\ return\ the\ scores\ array\ for\ the\ ScoresTab\ class\ to\ use.\n\ @return\ scores\ an\ array\ of\ integers\n
+comment6.params=
+comment6.target=int\ getSize()
+comment6.text=\n\ Helper\ method\ created\ (Peggy\ debugging)\ to\ return\ the\ size\ of\ the\ scores\ array\n\ @return\ integer\ the\ scores\ array\ length\n
+comment7.params=intArray
+comment7.target=int[]\ insertionSort(int[])
+comment7.text=\n\ Insertion\ sorting\ algorithm\ that\ sorts\ the\ array\ from\ least\ to\ greatest\n\ @param\ int[]\ array\ that\ is\ sorted\n\ @return\ the\ sorted\ array\n
+numComments=8
